@@ -1,7 +1,7 @@
 {
-  "name": "@primo-ui/tokens",
+  "name": "@primo-ui/react",
   "version": "0.0.1",
-  "description": "This extension carry all the types that you can use with primo-ui",
+  "description": "",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
@@ -11,10 +11,10 @@
     "dev": "tsup src/index.ts --format esm,cjs --dts --watch"
   },
   "keywords": [],
-  "author": "",
+  "author": " ",
   "license": "ISC",
   "devDependencies": {
-    "tsup": "^6.2.3",
-    "typescript": "^4.8.4"
+    "@primo-ui/tokens": "*",
+    "tsup": "^6.2.3"
   }
 }
