@@ -12,9 +12,10 @@
   },
   "keywords": [],
   "author": " ",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@primo-ui/tokens": "*",
+    "@primo-ui/ts-config": "*",
     "tsup": "^6.2.3"
   }
 }

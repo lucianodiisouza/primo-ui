@@ -1,0 +1,5 @@
+{
+    "extends": "@primo-ui/ts-config/react.json",
+    "include": ["src"]
+  }
+  
