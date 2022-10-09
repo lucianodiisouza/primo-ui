@@ -1,16 +1,16 @@
 {
-  "name": "docs",
-  "version": "1.0.0",
+  "name": "@primo-ui/docs",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "dev": "start-storybook -p 6006",
+    "build": "build-storybook"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.19.3",
     "@storybook/addon-actions": "^6.5.12",
@@ -23,5 +23,9 @@
     "@vitejs/plugin-react": "^2.1.0",
     "babel-loader": "^8.2.5",
     "vite": "^3.1.6"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }
