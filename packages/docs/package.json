@@ -25,9 +25,11 @@
     "vite": "^3.1.6"
   },
   "dependencies": {
+    "@primo-ui/eslint-config": "*",
     "@primo-ui/react": "*",
     "@primo-ui/tokens": "*",
-    "@primo-ui/eslint-config": "*",
+    "@primo-ui/ts-config": "*",
+    "polished": "^4.2.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
