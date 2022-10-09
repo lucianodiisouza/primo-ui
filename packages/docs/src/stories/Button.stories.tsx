@@ -1,19 +1,18 @@
 import { StoryObj, Meta } from '@storybook/react'
-import { Button } from '@primo-ui/react'
+import { Button, ButtonProps } from '@primo-ui/react'
 
 export default {
   title: 'Button',
   component: Button,
-} as Meta
-
-export const Primary: StoryObj = {
   args: {
-    children: 'Primary',
+    children: 'Button',
   },
-}
+} as Meta<ButtonProps>
 
-export const Secondary: StoryObj = {
+export const Primary: StoryObj<ButtonProps> = {}
+
+export const Big: StoryObj<ButtonProps> = {
   args: {
-    children: 'Secondary',
+    size: 'big',
   },
 }
