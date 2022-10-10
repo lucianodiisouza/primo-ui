@@ -4,10 +4,14 @@
     "packages/*"
   ],
   "devDependencies": {
+    "@changesets/cli": "^2.25.0",
     "turbo": "^1.5.5"
   },
   "scripts": {
     "dev": "turbo run dev --parallel",
-    "build": "turbo run build"
+    "build": "turbo run build",
+    "changeset": "changeset",
+    "version-packages": "changeset version",
+    "release": "turn run build --filter=@primo-ui/docs && changeset publish"
   }
 }
