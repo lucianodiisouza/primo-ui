@@ -1,0 +1,2 @@
+import{A as t}from"./index.0dd40202.js";import"./index.03065ce8.js";import"./iframe.8efb8726.js";import"./index.5e8cd697.js";import"./jsx-runtime.d53c53cb.js";const c={title:"Display/Avatar",component:t,args:{src:"https://github.com/lucianodiisouza.png",alt:"Luciano Di Souza"},argTypes:{src:{control:{type:"text"}}}},p={},m={args:{src:void 0}},n=["Primary","WithFallback"];export{p as Primary,m as WithFallback,n as __namedExportsOrder,c as default};
+//# sourceMappingURL=Avatar.stories.26598919.js.map
