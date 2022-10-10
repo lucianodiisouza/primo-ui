@@ -8,7 +8,7 @@
 - [x] TextArea
 - [x] Checkbox
 - [x] Avatar
-- [ ] MultiStep
+- [x] MultiStep
 
 - [ ] Select
 - [ ] Slider
@@ -26,3 +26,5 @@
 # TODO
 
 - [ ] setup husky scrips lint (with turbo now, i think this will be possible)
+- [ ] light mode variations
+- [ ] add badge/notifications to `Avatar`

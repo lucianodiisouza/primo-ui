@@ -8,6 +8,13 @@ export default {
     src: 'https://github.com/lucianodiisouza.png',
     alt: 'Luciano Di Souza',
   },
+  argTypes: {
+    src: {
+      control: {
+        type: 'text',
+      },
+    },
+  },
 } as Meta<AvatarProps>
 
 export const Primary: StoryObj<AvatarProps> = {}
