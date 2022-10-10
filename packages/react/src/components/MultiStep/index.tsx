@@ -29,3 +29,5 @@ export interface MultiStepProps
   stepLabel?: string
   ofLabel?: string
 }
+
+MultiStep.displayName = 'MultiStep'

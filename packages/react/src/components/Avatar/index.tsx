@@ -14,3 +14,5 @@ export function Avatar(props: AvatarProps) {
 }
 
 export interface AvatarProps extends ComponentProps<typeof AvatarImage> {}
+
+Avatar.displayName = 'Avatar'

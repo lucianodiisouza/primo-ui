@@ -14,3 +14,5 @@ export function Checkbox(props: CheckboxProps) {
 
 export interface CheckboxProps
   extends ComponentProps<typeof CheckboxContainer> {}
+
+  Checkbox.displayName = 'Checkbox'
