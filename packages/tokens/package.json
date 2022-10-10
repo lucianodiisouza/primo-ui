@@ -1,6 +1,6 @@
 {
   "name": "@primo-ui/tokens",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This extension carry all the types that you can use with primo-ui",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
