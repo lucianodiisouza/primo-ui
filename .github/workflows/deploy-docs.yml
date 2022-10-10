@@ -23,8 +23,8 @@ jobs:
 
       - run: npm run build
         env:
-          TURBO_TOKEN: x3dnbSzQ1TBy96iDzU16JAPV
-          TURBO_TEAM: oprimodev
+          TURBO_TOKEN: ${{ secrets.TURBO_TOKEN}}
+          TURBO_TEAM: ${{ secrets.TURBO_TEAM}}
 
       - name: Deploy storybook
         working-directory: ./packages/docs
