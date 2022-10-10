@@ -22,6 +22,8 @@
 - [ ] Popover
 - [ ] Modal
 - [ ] Context Menu
+- [ ] ProgressBar
+- [ ] Toast
 
 # TODO
 
