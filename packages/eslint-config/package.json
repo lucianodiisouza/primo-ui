@@ -1,5 +1,6 @@
 {
   "private": true,
+  "version": "0.0.1",
   "name": "@primo-ui/eslint-config",
   "main": "index.js",
   "license": "MIT",

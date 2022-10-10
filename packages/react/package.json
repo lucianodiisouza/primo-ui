@@ -11,7 +11,7 @@
     "lint": "eslint src/**/*.ts* --fix"
   },
   "keywords": [],
-  "author": " ",
+  "author": "",
   "license": "MIT",
   "devDependencies": {
     "@primo-ui/eslint-config": "*",
