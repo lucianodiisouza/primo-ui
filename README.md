@@ -17,3 +17,12 @@
 - [ ] Badge
 - [ ] Tabs
 - [ ] Caroussel (V/H)
+- [ ] ScrollArea
+- [ ] Tooltip
+- [ ] Popover
+- [ ] Modal
+- [ ] Context Menu
+
+# TODO
+
+- [ ] setup husky scrips lint (with turbo now, i think this will be possible)
