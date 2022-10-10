@@ -12,6 +12,6 @@
     "build": "turbo run build",
     "changeset": "changeset",
     "version-packages": "changeset version",
-    "release": "turn run build --filter=@primo-ui/docs && changeset publish"
+    "release": "turbo run build --filter=packages/docs && changeset publish"
   }
 }
